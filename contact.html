@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - EcoPlast Recycled Plastic</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Georgia, serif; background-color: #F6ECE3; color: #000000; line-height: 1.6; }
+        nav { background-color: #000000; padding: 1.5rem 2rem; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+        nav ul { list-style: none; display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
+        nav a { color: #FFFFFF; text-decoration: none; font-size: 1.1rem; font-weight: bold; transition: color 0.3s; padding: 0.5rem 1rem; }
+        nav a:hover { color: #B7A7A9; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 3rem 2rem; }
+        h1 { font-size: 3rem; margin-bottom: 2rem; color: #000000; text-align: center; }
+        h2 { font-size: 1.8rem; margin-bottom: 1.5rem; color: #91766E; }
+        h3 { font-size: 1.4rem; margin-bottom: 1rem; color: #000000; }
+        .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .contact-card { background-color: #FFFFFF; border-radius: 12px; padding: 2.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .contact-card p { font-size: 1.1rem; margin-bottom: 1.5rem; color: #333333; }
+        .contact-item { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 2rem; }
+        .contact-icon { font-size: 2rem; margin-top: 0.2rem; }
+        .contact-details h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+        .contact-details a { color: #91766E; text-decoration: none; font-size: 1.1rem; font-weight: bold; }
+        .contact-details a:hover { text-decoration: underline; }
+        .info-box { background-color: #F6ECE3; padding: 1.5rem; border-radius: 8px; margin-top: 2rem; }
+        .info-box h3 { margin-bottom: 0.8rem; }
+        .info-box p { color: #333333; font-size: 1rem; }
+        .order-info { background-color: #91766E; color: #FFFFFF; }
+        .order-info h2 { color: #FFFFFF; }
+        .order-info h3 { color: #FFFFFF; margin-top: 1.5rem; }
+        .order-info p { color: #FFFFFF; }
+        dl { margin: 1.5rem 0; }
+        dt { font-weight: bold; margin-top: 1rem; font-size: 1.1rem; }
+        dd { margin-left: 1.5rem; margin-bottom: 0.8rem; font-size: 1rem; }
+        ol { margin-left: 1.5rem; margin-top: 1rem; }
+        ol li { margin-bottom: 0.6rem; font-size: 1rem; }
+        footer { background-color: #000000; color: #FFFFFF; text-align: center; padding: 3rem 2rem; margin-top: 4rem; }
+        footer p { margin-bottom: 1rem; }
+        .footer-nav { margin: 2rem 0; }
+        .footer-nav a { color: #B7A7A9; text-decoration: none; margin: 0 1rem; }
+        .footer-nav a:hover { color: #FFFFFF; }
+        .company-name { font-size: 1.2rem; font-weight: bold; }
+        .copyright { color: #B7A7A9; font-size: 0.9rem; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            nav ul { flex-direction: column; gap: 1rem; text-align: center; }
+            .contact-grid { grid-template-columns: 1fr; }
+            .contact-card { padding: 2rem 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h2>Get In Touch</h2>
+                <p>Ready to place your order or have questions about our recycled plastic products? We would love to hear from you! Contact us today to discuss your needs and start making a positive environmental impact.</p>
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div class="contact-details">
+                        <h3>Phone</h3>
+                        <a href="tel:6086950338">(608) 695-0338</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <a href="mailto:asalali3@wisc.edu">asalali3@wisc.edu</a>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <h3>Bulk Orders Welcome</h3>
+                    <p>We specialize in bulk orders. All our products are sold in packs of 100 pieces for $9.99. Contact us for larger quantity discounts and special pricing!</p>
+                </div>
+            </div>
+            <div class="contact-card order-info">
+                <h2>Order Information</h2>
+                <h3>Product Details</h3>
+                <dl>
+                    <dt>Price per Pack:</dt><dd>$9.99 (100 pieces)</dd>
+                    <dt>Available Products:</dt>
+                    <dd>
+                        <ul style="list-style-position: inside; margin-left: 0;">
+                            <li>Plastic Garbage Bags</li>
+                            <li>Shrink Film Plastic Bags</li>
+                            <li>Polythene Bags</li>
+                        </ul>
+                    </dd>
+                    <dt>Material:</dt><dd>100% Recycled Plastic</dd>
+                    <dt>Minimum Order:</dt><dd>1 pack (100 pieces)</dd>
+                </dl>
+                <h3>How to Order</h3>
+                <ol>
+                    <li>Contact us via phone or email</li>
+                    <li>Specify the product type and quantity needed</li>
+                    <li>Receive your quote and payment details</li>
+                    <li>Complete payment and provide shipping information</li>
+                    <li>We will process and ship your order promptly</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="company-name">EcoPlast - Sustainable Plastic Solutions</p>
+        <p>Making the planet greener, one recycled bag at a time</p>
+        <div class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+        <p class="copyright">&copy; 2025 EcoPlast. All rights reserved.</p>
+    </footer>
+</body>
+</html>

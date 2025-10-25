@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoPlast - Recycled Plastic Products</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Georgia, serif; background-color: #F6ECE3; color: #000000; line-height: 1.6; }
+        nav { background-color: #000000; padding: 1.5rem 2rem; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+        nav ul { list-style: none; display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
+        nav a { color: #FFFFFF; text-decoration: none; font-size: 1.1rem; font-weight: bold; transition: color 0.3s; padding: 0.5rem 1rem; }
+        nav a:hover { color: #B7A7A9; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), #91766E; color: #FFFFFF; text-align: center; padding: 6rem 2rem; margin-bottom: 3rem; }
+        h1 { font-size: 3.5rem; margin-bottom: 1.5rem; color: #FFFFFF; }
+        h2 { font-size: 2.5rem; margin-bottom: 1.5rem; color: #000000; text-align: center; }
+        h3 { font-size: 1.8rem; margin-bottom: 1rem; color: #91766E; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        .hero-quote { font-size: 2rem; margin-bottom: 2rem; font-style: italic; max-width: 900px; margin-left: auto; margin-right: auto; line-height: 1.6; }
+        .hero-subtitle { font-size: 1.3rem; margin-bottom: 2rem; }
+        .btn { display: inline-block; background-color: #91766E; color: #FFFFFF; padding: 1rem 2.5rem; text-decoration: none; font-size: 1.2rem; font-weight: bold; border-radius: 8px; transition: background-color 0.3s; }
+        .btn:hover { background-color: #765E51; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 3rem 0; }
+        .feature-box { background-color: #FFFFFF; padding: 2.5rem; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .feature-icon { font-size: 4rem; margin-bottom: 1rem; }
+        .feature-box h3 { color: #000000; }
+        .feature-box p { color: #333333; font-size: 1.05rem; }
+        .cta-box { background-color: #91766E; color: #FFFFFF; padding: 3rem; border-radius: 12px; text-align: center; margin: 3rem 0; }
+        .cta-box h3 { color: #FFFFFF; font-size: 2rem; margin-bottom: 1rem; }
+        .cta-box p { font-size: 1.2rem; margin-bottom: 1.5rem; }
+        .cta-btn { background-color: #FFFFFF; color: #91766E; }
+        .cta-btn:hover { background-color: #F6ECE3; }
+        footer { background-color: #000000; color: #FFFFFF; text-align: center; padding: 3rem 2rem; margin-top: 4rem; }
+        footer p { margin-bottom: 1rem; }
+        .footer-nav { margin: 2rem 0; }
+        .footer-nav a { color: #B7A7A9; text-decoration: none; margin: 0 1rem; }
+        .footer-nav a:hover { color: #FFFFFF; }
+        .center-text { text-align: center; font-size: 1.2rem; margin-bottom: 3rem; }
+        .copyright { color: #B7A7A9; font-size: 0.9rem; }
+        .company-name { font-size: 1.2rem; font-weight: bold; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 2rem; }
+            .hero-quote { font-size: 1.5rem; }
+            nav ul { flex-direction: column; gap: 1rem; text-align: center; }
+            .hero { padding: 4rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Sustainable Recycled Plastic Solutions</h1>
+        <p class="hero-quote">"When you throw something away, it doesn't disappear. It just becomes something else. Opt for recycling, and make sure that something else is useful."</p>
+        <p class="hero-subtitle">Quality recycled plastic products for a greener tomorrow</p>
+        <a href="products.html" class="btn">Shop Now</a>
+    </div>
+
+    <div class="container">
+        <h2>Why Choose EcoPlast?</h2>
+        <p class="center-text">Affordable, eco-friendly plastic products made from 100% recycled materials</p>
+
+        <div class="features">
+            <div class="feature-box">
+                <div class="feature-icon">🌱</div>
+                <h3>Eco-Friendly</h3>
+                <p>All our products are made from 100% recycled plastic, reducing environmental impact and keeping plastic out of landfills.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">📦</div>
+                <h3>Bulk Pricing</h3>
+                <p>Get 100 pieces for just $9.99 - unbeatable value for quality recycled products that help the environment.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">♻️</div>
+                <h3>Quality Assured</h3>
+                <p>Durable and reliable products that meet high standards while protecting the planet for future generations.</p>
+            </div>
+        </div>
+
+        <div class="cta-box">
+            <h3>Ready to Make a Difference?</h3>
+            <p>Contact us today to place your bulk order</p>
+            <a href="contact.html" class="btn cta-btn">Get In Touch</a>
+        </div>
+    </div>
+
+    <footer>
+        <p class="company-name">EcoPlast - Sustainable Plastic Solutions</p>
+        <p>Making the planet greener, one recycled bag at a time</p>
+        <div class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+        <p class="copyright">&copy; 2025 EcoPlast. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - EcoPlast Recycled Plastic</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Georgia, serif; background-color: #F6ECE3; color: #000000; line-height: 1.6; }
+        nav { background-color: #000000; padding: 1.5rem 2rem; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+        nav ul { list-style: none; display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
+        nav a { color: #FFFFFF; text-decoration: none; font-size: 1.1rem; font-weight: bold; transition: color 0.3s; padding: 0.5rem 1rem; }
+        nav a:hover { color: #B7A7A9; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
+        h1 { font-size: 3rem; margin-bottom: 1rem; color: #000000; text-align: center; }
+        h2 { font-size: 1.8rem; margin-bottom: 1rem; color: #000000; }
+        .subtitle { text-align: center; font-size: 1.3rem; color: #333333; margin-bottom: 3rem; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; margin: 3rem 0; }
+        .product-card { background-color: #FFFFFF; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+        .product-card:hover { transform: translateY(-10px); box-shadow: 0 8px 25px rgba(0,0,0,0.2); }
+        .product-card img { width: 100%; height: 280px; object-fit: cover; }
+        .product-info { padding: 2rem; }
+        .product-info h2 { color: #000000; margin-bottom: 1rem; }
+        .product-info p { margin-bottom: 1.5rem; color: #333333; font-size: 1.05rem; }
+        .price { font-size: 2.5rem; font-weight: bold; color: #91766E; margin-bottom: 0.5rem; }
+        .quantity { color: #666666; margin-bottom: 1.5rem; font-style: italic; font-size: 1.1rem; }
+        .btn { display: block; width: 100%; background-color: #000000; color: #FFFFFF; padding: 1rem; text-align: center; text-decoration: none; font-size: 1.1rem; font-weight: bold; border-radius: 8px; transition: background-color 0.3s; }
+        .btn:hover { background-color: #333333; }
+        .recycle-cta { background-color: #91766E; color: #FFFFFF; padding: 2rem; border-radius: 12px; text-align: center; margin-top: 2rem; }
+        .recycle-cta a { display: inline-block; margin-top: 0.75rem; background-color: #FFFFFF; color: #91766E; padding: 0.8rem 1.5rem; border-radius: 8px; font-weight: bold; text-decoration: none; }
+        .recycle-cta a:hover { background-color: #F6ECE3; }
+        footer { background-color: #000000; color: #FFFFFF; text-align: center; padding: 3rem 2rem; margin-top: 4rem; }
+        footer p { margin-bottom: 1rem; }
+        .footer-nav { margin: 2rem 0; }
+        .footer-nav a { color: #B7A7A9; text-decoration: none; margin: 0 1rem; }
+        .footer-nav a:hover { color: #FFFFFF; }
+        .company-name { font-size: 1.2rem; font-weight: bold; }
+        .copyright { color: #B7A7A9; font-size: 0.9rem; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            nav ul { flex-direction: column; gap: 1rem; text-align: center; }
+            .products-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Our Products</h1>
+        <p class="subtitle">Premium recycled plastic products at unbeatable prices</p>
+        
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="images/garbage-bag.jpg" alt="Black recycled plastic garbage bag">
+                <div class="product-info">
+                    <h2>Recycled Plastic Garbage Bags</h2>
+                    <p>Heavy-duty garbage bags made from 100% recycled plastic. Perfect for household and commercial use.</p>
+                    <div class="price">$9.99</div>
+                    <div class="quantity">100 pieces per pack</div>
+                    <a href="contact.html" class="btn">Order Now</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/shrink-film.jpg" alt="Clear recycled shrink film plastic bags">
+                <div class="product-info">
+                    <h2>Shrink Film Plastic Bags</h2>
+                    <p>Versatile shrink film bags ideal for packaging and protecting various items. Made from recycled materials.</p>
+                    <div class="price">$9.99</div>
+                    <div class="quantity">100 pieces per pack</div>
+                    <a href="contact.html" class="btn">Order Now</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/polythene-bags.jpg" alt="Rolls of recycled polythene plastic">
+                <div class="product-info">
+                    <h2>Polythene Bags</h2>
+                    <p>Multi-purpose polythene bags crafted from recycled plastic. Lightweight yet durable for everyday use.</p>
+                    <div class="price">$9.99</div>
+                    <div class="quantity">100 pieces per pack</div>
+                    <a href="contact.html" class="btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="recycle-cta">
+            <h2>Learn More About Recycling in the UAE</h2>
+            <p>Find official guidance on recycling programs, waste reduction, and environmental initiatives across the Emirates.</p>
+            <a href="https://www.moccae.gov.ae/" target="_blank" rel="noopener">Visit MOCCAE</a>
+        </div>
+    </div>
+
+    <footer>
+        <p class="company-name">EcoPlast - Sustainable Plastic Solutions</p>
+        <p>Making the planet greener, one recycled bag at a time</p>
+        <div class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+        <p class="copyright">&copy; 2025 EcoPlast. All rights reserved.</p>
+    </footer>
+</body>
+</html>
